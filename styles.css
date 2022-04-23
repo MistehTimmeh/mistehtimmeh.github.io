@@ -1,0 +1,284 @@
+/******w*************
+    
+    Project 3 Stylesheet
+    Name: Cory Rae
+    Date: 2022-04-21
+    Description: CSS for styling the pages of the website
+
+********************/
+
+@media (max-width: 680px) {
+    
+    body {
+        width: 612px;
+    }
+
+    .programming-photos {
+        width: 300px;
+        height: 175px;
+    }
+
+    .img-container {
+        display: grid;
+    }
+
+    section#content-one {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    section#content-one p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    section#content-two {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    section#content-two p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    section#content-three {
+        float: none;
+        margin-bottom: 10px;
+    }
+
+    section#content-three p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    section figure {
+        width: 100%;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: grid;
+    margin: 10px auto 10px;
+    width: 75%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 5px 1px 5px #000;
+    background: rgb(108,32,201); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(108,32,201,1) 100%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(108,32,201,1) 100%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(108,32,201,1) 100%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c20c9', endColorstr='#7db9e8',GradientType=0); /* IE6-9 */
+}
+
+div#page {
+    border-radius: 5px;
+    background: rgb(160,35,219); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(160,35,219,1) 100%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(160,35,219,1) 100%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(160,35,219,1) 100%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a023db', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+header {
+    margin: 10px;
+}
+
+    header h1 {
+        font-size: 64px;
+    }
+
+    header h2 {
+        font-size: 48px;
+        text-align: right;
+    }
+
+nav ol {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+    nav ol li {
+        padding: 10px 25px 10px 25px;
+    }
+
+    nav ol li:nth-child(2n) {
+        text-shadow: 1px 0px 0px #000;
+        color: #9400FF;
+    }
+
+section figure {
+    margin-bottom: 30px;
+}
+
+section#content-one {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+section#content-one figure {
+    float: left;
+    border: 1px solid black;
+    margin-left: 30%;
+    width: 198px;
+    height: 235px;
+}
+
+section#content-one p {
+    margin-left: 45%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
+
+section#content-two {
+    margin-top: 30px;
+    margin-bottom: 110px;
+}
+
+section#content-two figure {
+    float: right;
+    border: 1px solid black;
+    margin-right: 30%;
+    width: 198px;
+    height: 235px;
+}
+
+section#content-two p {
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
+
+section#content-three {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+section#content-three figure {
+    float: left;
+    border: 1px solid black;
+    margin-left: 30%;
+    width: 198px;
+    height: 235px;
+}
+
+section#content-three p {
+    margin-left: 45%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
+
+img#personal-photo {
+    border: 1px solid black;
+    margin: 5px;
+    width: 185px;
+    height: 200px
+}
+
+img#longboard-photo {
+    border: 1px solid black;
+    margin: 5px;
+    width: 185px;
+    height: 200px;
+}
+
+img#computer-photo {
+    border: 1px solid black;
+    margin: 5px;
+    width: 185px;
+    height: 200px;
+}
+
+footer ol {
+    display: flex;
+    justify-content: center;
+}
+
+    footer ol li {
+        font-size: 0.7em;
+    }
+
+    footer ol li:nth-child(2n-1) {
+        padding: 0px 6px 5px 6px;
+    }
+
+footer p {
+    text-align: center;
+    font-size: 0.7em;
+    padding-bottom: 5px;
+}
+
+.programming-photos {
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 600px;
+    height: 350px;
+}
+
+.home-page-caption {
+    padding-left: 5px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+content h1 {
+    text-align: center;
+    margin: 3px;
+}
+
+h1#future-projects {
+    border-top: 1px black solid;
+}
+
+content section figure h2 {
+    text-align: center;
+    margin: 3px;
+}
+
+.project-page-images {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+form {
+    margin: 50px 35% 50px 35%;
+
+}
+
+fieldset {
+    border: none;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+    margin:5px auto;
+    align-content: center;
+}
+
+div#buttons {
+    margin:5px auto;
+    padding: 5px;
+    clear:both;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
