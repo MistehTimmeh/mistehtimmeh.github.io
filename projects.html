@@ -14,61 +14,11 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <div id="page">
-      <header>
-        <h1>Cory Rae's Personal Site</h1>
-        <h2>Personal Projects</h2>
-      </header>
-        <nav>
-          <ol>
-            <li>
-              <a href="index.html">HOME PAGE</a>
-            </li>
-            <li>|</li>
-            <li>
-              <a href="projects.html">PROJECTS</a>
-            </li>
-            <li>|</li>
-            <li>
-              <a href="contact.html">CONTACT</a>
-            </li>
-          </ol>
-        </nav>
-      <content>
-        <h1 id="past-projects">Past Project(s)</h1>
-        <section id="first-project">
-          <figure>
-            <h2>Programming 2 Term Project</h2>
-            <div class="img-container">
-              <img class="programming-photos" src="images/programming-project.jpg"/>
-              <img class="programming-photos" src="images/programming-project2.jpg"/>
-            </div>
-            <figcaption class="project-page-images">In Programming 2, throughout the term, we worked on creating various classes and files that contributed to this program. At first it was simply coding classes for functionality and storing data, but over the last several modules we focused on using Windows Forms with C# to create a usable program using the aforementioned classes.<br>The first photo showcases one subwindow of the program, in which it takes in a variety of numbers from the user, as well as certain customization options the user enters, and provides the result of calculations based on the data.<br>The second photo showcases the program's ability to work with databases. Cells can be modified, new data can be entered, data can be deleted, and it will update the database accordingly.</figcaption>
-          </figure>
-        </section>
-        <section id="second-project">
-          <figure>
-            <h2>Web Development Website Project 1</h2>
-            <div class="img-container">
-              <img class="programming-photos" src="images/webdev-project.jpg"/>
-              <img class="programming-photos" src="images/webdev-project2.jpg"/>
-            </div>
-            <figcaption class="project-page-images">The first project in Web Development has us attempt to recreate a webpage based purely on an image.<br>The first photo showcases the top of the page, which required organizing a variety of images, a search bar, various links, as well as a sidebar.<br>The second photo showcases lower down the page, with text formatted various ways, with an image positioned on the side next to text.</figcaption>
-          </figure>
-        </section>
-        <h1 id="future-projects">Future Project(s)</h1>
-        <section id="second-project">
-          <figure>
-            <h2>Payday 2 Skin Viewer Website</h2>
-            <div class="img-container">
-              <img class="programming-photos" src="images/future-project.jpg"/>
-              <img class="programming-photos" src="images/future-project2.jpg"/>
-            </div>
-            <figcaption class="project-page-images">Over the summer I had the idea to make a website similar in function to <a href="https://csgostash.com/">CSGOStash</a>, which is a website that allows users to see the weapon skins/recolours from the video game Counter Strike: Global Offensive. It sorts the guns and skins into separate pages, which allows users to see all the AK-47 skins, or all of the guns that a certain skin is on on a single page.<br>I've attempted something like this in the past, but for the video game Killing Floor 2, which had an API that could be accessed and returned a JSON string with data on the games items.<br>Assuming Payday 2 has an API that can return the data for all skins in a similar way, the skills learned in the Web Development course would greatly assist in creating this project. Shown above are two quick mockups (made in MS Paint) of what the website could look like, on both the main page, as well as a certain weapon/skin page.</figcaption>
-          </figure>
-        </section>
-      </content>
-      <footer>
+    <header>
+      <h1>Cory Rae's Personal Site</h1>
+      <h2>Personal Projects</h2>
+    </header>
+      <nav>
         <ol>
           <li>
             <a href="index.html">HOME PAGE</a>
@@ -82,8 +32,56 @@
             <a href="contact.html">CONTACT</a>
           </li>
         </ol>
-        <p>I apologize for the eye damage viewers of this site may encounter.</p>
-      </footer>
+      </nav>
+    <div id="content">
+      <h1 id="past-projects">Past Project(s)</h1>
+      <div id="first-project">
+        <figure>
+          <h2>Programming 2 Term Project</h2>
+          <div class="img-container">
+            <img class="programming-photos" src="images/programming-project.jpg" alt="First programming photo."/>
+            <img class="programming-photos" src="images/programming-project2.jpg" alt="Second programming photo."/>
+          </div>
+          <figcaption class="project-page-images">In Programming 2, throughout the term, we worked on creating various classes and files that contributed to this program. At first it was simply coding classes for functionality and storing data, but over the last several modules we focused on using Windows Forms with C# to create a usable program using the aforementioned classes.<br>The first photo showcases one subwindow of the program, in which it takes in a variety of numbers from the user, as well as certain customization options the user enters, and provides the result of calculations based on the data.<br>The second photo showcases the program's ability to work with databases. Cells can be modified, new data can be entered, data can be deleted, and it will update the database accordingly.</figcaption>
+        </figure>
+      </div>
+      <div id="second-project">
+        <figure>
+          <h2>Web Development Website Project 1</h2>
+          <div class="img-container">
+            <img class="programming-photos" src="images/webdev-project.jpg" alt="First web development photo."/>
+            <img class="programming-photos" src="images/webdev-project2.jpg" alt="Second web development photo."/>
+          </div>
+          <figcaption class="project-page-images">The first project in Web Development has us attempt to recreate a webpage based purely on an image.<br>The first photo showcases the top of the page, which required organizing a variety of images, a search bar, various links, as well as a sidebar.<br>The second photo showcases lower down the page, with text formatted various ways, with an image positioned on the side next to text.</figcaption>
+        </figure>
+      </div>
+      <h1 id="future-projects">Future Project(s)</h1>
+      <div id="third-project">
+        <figure>
+          <h2>Payday 2 Skin Viewer Website</h2>
+          <div class="img-container">
+            <img class="programming-photos" src="images/future-project.jpg" alt="First personal project photo"/>
+            <img class="programming-photos" src="images/future-project2.jpg" alt="Second personal project photo"/>
+          </div>
+          <figcaption class="project-page-images">Over the summer I had the idea to make a website similar in function to <a href="https://csgostash.com/">CSGOStash</a>, which is a website that allows users to see the weapon skins/recolours from the video game Counter Strike: Global Offensive. It sorts the guns and skins into separate pages, which allows users to see all the AK-47 skins, or all of the guns that a certain skin is on on a single page.<br>I've attempted something like this in the past, but for the video game Killing Floor 2, which had an API that could be accessed and returned a JSON string with data on the games items.<br>Assuming Payday 2 has an API that can return the data for all skins in a similar way, the skills learned in the Web Development course would greatly assist in creating this project. Shown above are two quick mockups (made in MS Paint) of what the website could look like, on both the main page, as well as a certain weapon/skin page.</figcaption>
+        </figure>
+      </div>
     </div>
+    <footer>
+      <ol>
+        <li>
+          <a href="index.html">HOME PAGE</a>
+        </li>
+        <li>|</li>
+        <li>
+          <a href="projects.html">PROJECTS</a>
+        </li>
+        <li>|</li>
+        <li>
+          <a href="contact.html">CONTACT</a>
+        </li>
+      </ol>
+      <p>I apologize for the eye damage viewers of this site may encounter.</p>
+    </footer>
   </body>
 </html>
